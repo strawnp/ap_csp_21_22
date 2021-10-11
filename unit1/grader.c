@@ -27,6 +27,6 @@ float get_grade(void)
     {
         grade = get_float("Enter your score: ");
     }
-    while (grade < 0) || grade > 5;
+    while (grade < 0 || grade > 5);
     return grade;
 }
