@@ -8,8 +8,8 @@ int main(void)
     char letter2 = 'B';                             // 1 byte
     int num2 = 77;                                  // 4 bytes
     string word = "hello";                          // 6 bytes
-    char school[] = "JHS";                          // 4 bytes
     char motto[4] = { 'A', 'M', 'D', 'G' };         // 4 bytes
+    char school[] = "JHS";                          // 4 bytes
 
     printf("%p\n", &num);
     printf("%p\n", &letter1);
