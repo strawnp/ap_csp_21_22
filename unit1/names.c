@@ -9,6 +9,8 @@ int main(void)
 
     for (int i = 0; i < strlen(name); i++)
     {
+        printf("%c\n", name[i]);
+        printf("name[%i]: %c\n", i, name[i]);
         printf("name[%i]: %c (%i)\n", i, name[i], name[i]);
     }
 }
