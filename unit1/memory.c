@@ -16,6 +16,10 @@ int main(void)
     printf("%p\n", &letter2);
     printf("%p\n", &num2);
     printf("%p\n", &word);
-    printf("%p\n", &school);
     printf("%p\n", &motto);
+    printf("%p\n", &school);
+
+    printf("%s\n", word);
+    printf("%s\n", motto);
+    printf("%s\n", school);
 }
