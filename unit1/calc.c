@@ -16,7 +16,7 @@ int main(int argc, string argv[])
     // float x = (float) strtod(argv[1], NULL);
 
     float y = atof(argv[3]);
-    // float y = (float) strtod(argv[1], NULL);
+    // float y = (float) strtod(argv[3], NULL);
 
     char op = argv[2][0];
 
